@@ -1,3 +1,38 @@
+
+.principal {
+  margin: 5px;
+  width: 500px;
+  display: flex; /* Alinea los hijos horizontalmente */
+  justify-content:center; /* Espacio entre los elementos */
+}
+.abc {
+  background-color: yellow;
+  color: red;
+  margin: 10px;
+}
+.texto {
+  background-color: rgb(255, 150, 124);
+  margin:5px;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  border: 5px solid red;
+}
+
+.container {
+  background-color: rgb(255, 150, 124);
+  border: 5px solid red;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.image {
+  margin-left: 10px; /* Espacio entre text box y la imagen */
+  width: 100px; /* Ajustar si es necesario*/
+  height: auto; /* Maintain aspect ratio */
+}
+
 .App {
   text-align: center;
 }
